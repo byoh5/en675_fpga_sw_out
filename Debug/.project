@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>EN675_FPGA-Debug@Debug</name>
+	<comment></comment>
+	<projects></projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>C:/MinGW/bin/mingw32-make.exe</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j4</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Debug</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Debug</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments/>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_CORE</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_CORE_SHARED</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_DEV</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB_CORE0</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB_CORE1</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core1</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB_CORE2</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core2</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB_CORE3</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core3</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB_FatFS</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB_FreeRTOS</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS</location>
+		</link>
+		<link>
+			<name>[Subprojects]/EN675_LIB_lwIP</name>
+			<type>2</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/adc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/adc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/aes.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/aes.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/oic.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/oic.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/checksum.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/checksum.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/ddr.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ddr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/dma.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dma.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/eth.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/eth.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/gpio.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/gpio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/i2c.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/i2c.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/i2s.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/i2s.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/ir.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ir.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/irq.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/irq.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sdio.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sfls.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sha.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sha.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/spi.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/spi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/timer.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/timer.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/uart.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/uart.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sys.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sys.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/wdt.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/wdt.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/audio.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/audio/audio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/tlv320aic3206.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/audio/tlv320aic3206.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/syscall.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/syscall.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/rv_utils.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/rv_utils.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/pmp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/pmp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/eeprom.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/eeprom/eeprom.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/ethphy.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ethphy.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/ksz8081mnx.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ksz8081mnx.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/ksz8081rnb.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ksz8081rnb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/ksz9031rnx.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ksz9031rnx.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/AV_Config.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/AV_Config.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/EDID.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/EDID.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/eHDMI.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/eHDMI.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/Globals.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/Globals.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/HDCP.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/HDCP.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/hdmi.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/hdmi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/i2c_master_sw.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/i2c_master_sw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/si_apiCDC.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_apiCDC.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/si_apiCEC.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_apiCEC.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/si_apiCpi.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_apiCpi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/si_cdc_heac.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cdc_heac.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/si_cpCDC.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cpCDC.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/si_cpCEC.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cpCEC.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/TPI.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/TPI.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/TPI_Access.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/TPI_Access.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/VideoModeTable.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/VideoModeTable.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/lt8618sx.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/LONTIUM/lt8618sx.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_digital_interface.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_digital_interface.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_font.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_font.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_interface.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_interface.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_tbl.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_tbl.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_par.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_par.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_menu.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_menu.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_main.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_main.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_ae.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_ae.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_af.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_af.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_awb.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_awb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_imd.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_imd.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_tdn.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_tdn.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_cont.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_cont.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_etc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_etc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/isp_jpeg.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/jpeg/isp_jpeg.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/key.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/key/key.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/MCP2515_main.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/MCP2515/MCP2515_main.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/aes_core.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/aes_core.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/aes_cbc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/aes_cbc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/cbc128.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/cbc128.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/aes_ecb.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/aes_ecb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/md5.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/md5.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/net_ascii.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/net_ascii.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sha1.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/sha1.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sha256.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/sha256.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/Base64.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/Base64.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/enx_math.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/enx_math.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/enx_time.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/enx_time.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/rtc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/rtc/rtc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/rtc-lib.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/rtc/rtc-lib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/pcf8563.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/rtc/pcf8563.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/s35390a.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/rtc/s35390a.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sdio_cd.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_cd.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sdio_mmc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_mmc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sdio_wf.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_wf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/sfls_model.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/sfls_model.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/eon_en25qh128a.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/eon_en25qh128a.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/eon_en25qh256.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/eon_en25qh256.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/winbond_w25q64jviq.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/winbond_w25q64jviq.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/winbond_w25q256jvq.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/winbond_w25q256jvq.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/gigadevice_gd25q128c.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/gigadevice_gd25q128c.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/micron_n25q128a.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/micron_n25q128a.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/micron_mt25ql128.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/micron_mt25ql128.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/micron_mt25ql256.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/micron_mt25ql256.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/issi_is25lp064.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/issi_is25lp064.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/issi_is25lp128.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/issi_is25lp128.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/issi_is25lp256.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/issi_is25lp256.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/macronix_mx25l12835f.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/macronix_mx25l12835f.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/macronix_mx25u12832f.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/macronix_mx25u12832f.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/vsnprintf.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/string/vsnprintf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/enx_string.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/string/enx_string.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/uart_string.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/string/uart_string.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/TP_main.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/TP2827/TP_main.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Source Files/wlif_tools.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/wifi/wlif_tools.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/cfg_define.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cfg_define.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/cfg_filesystem.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cfg_filesystem.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/cfg_media.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cfg_media.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/cfg_memory.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cfg_memory.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/cfg_network.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cfg_network.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_debug.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_debug.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_device.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_device.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_functions.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_functions.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_model.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_model.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_peri.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_peri.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_reg_m.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_reg_m.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_reg_s.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_reg_s.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_reg_ex.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_reg_ex.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_types.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_types.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/dev_verify.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/dev_verify.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/audio.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/audio/audio.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/tlv320aic3206.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/audio/tlv320aic3206.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/asm.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/asm.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/bits.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/bits.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/encoding.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/encoding.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/mtrap.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/mtrap.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/syscall.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/syscall.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/rv_utils.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/rv_utils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/pmp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/cpu/pmp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/eeprom.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/eeprom/eeprom.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/ethphy.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ethphy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/ksz8081mnx.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ksz8081mnx.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/ksz8081rnb.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ksz8081rnb.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/ksz9031rnx.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/ethernet/ksz9031rnx.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/AV_Config.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/AV_Config.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/Constants.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/Constants.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/defs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/defs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/EDID.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/EDID.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/eHDMI.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/eHDMI.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/Externals.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/Externals.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/HDCP.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/HDCP.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/hdmi.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/hdmi.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/i2c_master_sw.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/i2c_master_sw.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/Macros.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/Macros.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/SerialPort.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/SerialPort.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_apiCDC.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_apiCDC.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_apiCEC.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_apiCEC.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_apiConfigure.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_apiConfigure.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_apiCpi.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_apiCpi.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_cdc_enums.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cdc_enums.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_cdc_heac.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cdc_heac.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_cec_enums.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cec_enums.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_cpCDC.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cpCDC.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_cpCEC.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cpCEC.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_cpi_regs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_cpi_regs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/si_datatypes.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/si_datatypes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/TPI.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/TPI.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/TPI_Access.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/TPI_Access.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/TPI_Regs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/TPI_Regs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/TypeDefs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/TypeDefs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/VideoModeTable.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/SILICON/VideoModeTable.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/lt8618sx.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/HDMI/LONTIUM/lt8618sx.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_reg.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_reg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_reg_ex.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_reg_ex.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_digital_interface.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_digital_interface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_font.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_font.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_font_tbl.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_font_tbl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_clk.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_clk.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_cvbs_tbl.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_cvbs_tbl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_app.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_app.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_interface.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_interface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_vlc_tbl.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_vlc_tbl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_ae.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_ae.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_af.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_af.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_awb_tbl.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_awb_tbl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_imd.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_imd.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_menu.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_menu.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_menu_str.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_menu_str.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_user_parameter.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_user_parameter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_sensor_parameter.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/isp/isp_sensor_parameter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/isp_jpeg.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/jpeg/isp_jpeg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/key.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/key/key.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/MCP2515_main.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/MCP2515/MCP2515_main.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/aes.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/aes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/aes_local.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/aes_local.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/md5.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/md5.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/net_ascii.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/net_ascii.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sha.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/sha.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sha1.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/sha1.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/md32_common.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/md32_common.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/Base64.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/Base64.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/enx_math.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/enx_math.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/enx_time.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/minilib/enx_time.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/rtc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/rtc/rtc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/pcf8563.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/rtc/pcf8563.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/s35390a.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/rtc/s35390a.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sdio_host.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_host.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sdio_card.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_card.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sdio_cd.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_cd.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sdio_mmc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_mmc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sdio_wf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sdio/sdio_wf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/sfls_model.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/sfls_model.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/eon_en25qh128a.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/eon_en25qh128a.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/eon_en25qh256.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/eon_en25qh256.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/winbond_w25q64jviq.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/winbond_w25q64jviq.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/winbond_w25q256jvq.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/winbond_w25q256jvq.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/gigadevice_gd25q128c.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/gigadevice_gd25q128c.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/micron_n25q128a.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/micron_n25q128a.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/micron_mt25ql128.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/micron_mt25ql128.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/micron_mt25ql256.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/micron_mt25ql256.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/issi_is25lp064.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/issi_is25lp064.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/issi_is25lp128.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/issi_is25lp128.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/issi_is25lp256.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/issi_is25lp256.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/macronix_mx25l12835f.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/macronix_mx25l12835f.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/macronix_mx25u12832f.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/sfls/macronix_mx25u12832f.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/vsnprintf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/string/vsnprintf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/enx_string.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/string/enx_string.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/uart_string.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/string/uart_string.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/TP_main.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/TP2827/TP_main.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/wifi_cfg.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/wifi/wifi_cfg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Header Files/wlif_tools.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/dev/wifi/wlif_tools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] dev/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/init.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/init.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/def.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/def.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/dns.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/dns.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/inet_chksum.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/inet_chksum.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/ip.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ip.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/mem.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/mem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/memp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/memp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/netif.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/netif.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/pbuf.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/pbuf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/raw.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/raw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/stats.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/stats.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/sys.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/sys.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/altcp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/altcp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/altcp_alloc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/altcp_alloc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/altcp_tcp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/altcp_tcp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/tcp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/tcp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/tcp_in.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/tcp_in.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/tcp_out.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/tcp_out.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/timeouts.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/timeouts.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/udp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/udp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/autoip.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/autoip.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/dhcp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/dhcp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/etharp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/etharp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/icmp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/icmp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/igmp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/igmp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/ip4_frag.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/ip4_frag.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/ip4.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/ip4.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/ip4_addr.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/core/ipv4/ip4_addr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/api_lib.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/api_lib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/api_msg.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/api_msg.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/err.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/err.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/if_api.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/if_api.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/netbuf.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/netbuf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/netdb.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/netdb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/netifapi.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/netifapi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/sockets.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/sockets.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/tcpip.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/api/tcpip.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/ethernet.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/netif/ethernet.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/bridgeif.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/netif/bridgeif.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/bridgeif_fdb.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/netif/bridgeif_fdb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/slipif.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/netif/slipif.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/sys_arch.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/sys_arch.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/networkif.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/networkif.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/ethernetif.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/ethernetif.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/wifiif.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/wifiif.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/dhcpd.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/dhcpd.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/files.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/files.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/leases.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/leases.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/options.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/options.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Source Files/serverpacket.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/serverpacket.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/init.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/init.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/def.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/def.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/dns.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/dns.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/inet_chksum.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/inet_chksum.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/ip.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/ip.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/mem.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/mem.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/memp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/memp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/netif.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/netif.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/pbuf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/pbuf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/raw.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/raw.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/stats.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/stats.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/sys.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/sys.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/altcp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/altcp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/altcp_tcp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/altcp_tcp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/altcp_tls.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/altcp_tls.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/tcp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/tcp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/tcpbase.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/tcpbase.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/timeouts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/timeouts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/udp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/udp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/inet.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/inet.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/snmp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/arch.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/arch.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/debug.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/debug.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/err.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/err.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/ip_addr.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/ip_addr.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/opt.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/opt.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/autoip.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/autoip.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/dhcp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/dhcp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/etharp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/etharp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/icmp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/icmp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/igmp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/igmp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/ip4_frag.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/ip4_frag.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/ip4.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/ip4.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/ip4_addr.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/ip4_addr.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/api.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/if_api.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/if_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/netbuf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/netbuf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/netdb.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/netdb.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/netifapi.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/netifapi.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/sockets.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/sockets.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/tcpip.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/tcpip.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/errno.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/errno.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/bridgeif.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/netif/bridgeif.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/bridgeif_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/netif/bridgeif_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/etharp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/netif/etharp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/ethernet.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/netif/ethernet.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/slipif.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/netif/slipif.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/sio.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/sio.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/lwipopts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/lwipopts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/networkif.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/networkif.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/ethernetif.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/ethernetif.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/wifiif.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/wifiif.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/cc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/include/arch/cc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/perf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/include/arch/perf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/sys_arch.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/include/arch/sys_arch.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/debug.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/debug.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/dhcpd.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/dhcpd.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/files.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/files.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/leases.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/leases.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/options.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/options.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/packet.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/packet.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/serverpacket.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/port/dhcpd/serverpacket.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/altcp_proxyconnect.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/altcp_proxyconnect.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/altcp_tls_mbedtls_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/altcp_tls_mbedtls_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/fs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/fs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/http_client.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/http_client.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/httpd.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/httpd.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/httpd_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/httpd_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/lwiperf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/lwiperf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/mdns.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/mdns.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/mdns_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/mdns_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/mdns_priv.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/mdns_priv.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/mqtt.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/mqtt.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/mqtt_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/mqtt_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/mqtt_priv.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/mqtt_priv.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/netbiosns.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/netbiosns.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/netbiosns_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/netbiosns_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/smtp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/smtp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/smtp_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/smtp_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_core.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_core.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_mib2.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_mib2.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_scalar.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_scalar.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_snmpv2_framework.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_snmpv2_framework.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_snmpv2_usm.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_snmpv2_usm.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_table.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_table.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmp_threadsync.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmp_threadsync.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/snmpv3.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/snmpv3.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/sntp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/sntp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/sntp_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/sntp_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/tftp_opts.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/tftp_opts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Header Files/tftp_server.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/lwIP/include/lwip/apps/tftp_server.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lwip/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Source Files/diskio.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs/source/diskio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Source Files/ff.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs/source/ff.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Source Files/ffsystem.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs/source/ffsystem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Source Files/ffunicode.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs/source/ffunicode.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Header Files/diskio.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs/source/diskio.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Header Files/ff.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs/source/ff.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Header Files/ffconf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FatFs/source/ffconf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] fatfs/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos//portasm.S</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/portable/GCC/RISC-V/portasm.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/croutine.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/croutine.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/event_groups.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/event_groups.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/list.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/list.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/queue.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/queue.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/stream_buffer.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/stream_buffer.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/tasks.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/tasks.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/timers.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/timers.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/port.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/portable/GCC/RISC-V/port.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Source Files/heap_5.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/portable/MemMang/heap_5.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/enx_freertos.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/enx_freertos.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/FreeRTOSConfig.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/FreeRTOSConfig.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/croutine.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/croutine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/deprecated_definitions.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/deprecated_definitions.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/event_groups.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/event_groups.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/FreeRTOS.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/FreeRTOS.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/list.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/list.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/message_buffer.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/message_buffer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/mpu_prototypes.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/mpu_prototypes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/mpu_wrappers.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/mpu_wrappers.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/portable.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/portable.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/projdefs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/projdefs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/queue.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/queue.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/semphr.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/semphr.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/stack_macros.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/stack_macros.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/StackMacros.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/StackMacros.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/stream_buffer.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/stream_buffer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/task.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/task.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/timers.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/include/timers.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Header Files/portmacro.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/lib/FreeRTOS/Source/portable/GCC/RISC-V/portmacro.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] freertos/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/main0.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/main0.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/enx_rtos.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_rtos.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/enx_stream.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_stream.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/enx_record.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_record.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/enx_file.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_file.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/audtxrx.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/audtxrx/audtxrx.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/ir_recv.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ir/ir_recv.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/ipchange.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/change/ipchange.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/videochange.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/change/videochange.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/chargen.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/chargen/chargen.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/ethloopback.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ethloopback/ethloopback.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_common.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_common.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_fs.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_fs.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_sdio.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_sdio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_sfls.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_sfls.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_mem.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_mem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_net.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_net.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_eth.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_eth.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_media.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_media.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_gpio.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_gpio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_uart.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_uart.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_spi.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_spi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_i2c.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_i2c.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_isp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_isp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/shell_cmd_util.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_util.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/ledblink.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ledblink/ledblink.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/sdcard.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/sdcard/sdcard.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/emmc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/emmc/emmc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/iperf.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/lwiperf/iperf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/lwiperf.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/lwiperf/lwiperf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/ping.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ping/ping.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/sntp.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/sntpc/sntp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/sntpc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/sntpc/sntpc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtcp_process.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtcp_process.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtp_g711.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_g711.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtp_h264.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_h264.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtp_h265.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_h265.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtp_jpeg.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_jpeg.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtp_jpeg_sw.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_jpeg_sw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtp_queue.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_queue.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtspd.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtspd.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtspd_authorization.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtspd_authorization.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/rtspd_process.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtspd_process.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/altcp_proxyconnect.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/altcp_proxyconnect.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/fs.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/fs.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/http_client.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/http_client.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/httpd.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/httpd.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/cgissi.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/cgissi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/cgissi_en675.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/cgissi_en675.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/fsaplist.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/fsaplist.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/fsfilelist.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/fsfilelist.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/httpd_authorization.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/httpd_authorization.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/fmt_avienc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/fmt_avienc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/fmt_mp4enc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/fmt_mp4enc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/muxer_videnc.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/muxer_videnc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/stream_buffering.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/stream_buffering.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/videnc_heap.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/videnc_heap.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/videnc_info.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/videnc_info.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/wifi.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/wifi/wifi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/wifi_task.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/wifi/wifi_task.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/npu_apb.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/npu_apb.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/npu_app.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/npu_app.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/detector.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/detector/detector.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/post_process.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/network/post_process.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/echo.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/tcp_echo/echo.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Source Files/net_control.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/net_control/net_control.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/enx_rtos.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_rtos.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/enx_stream.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_stream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/enx_record.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_record.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/enx_file.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/enx_file.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/audtxrx.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/audtxrx/audtxrx.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/ir_recv.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ir/ir_recv.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/ipchange.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/change/ipchange.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/videochange.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/change/videochange.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/chargen.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/chargen/chargen.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/ethloopback.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ethloopback/ethloopback.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_common.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_common.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_fs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_fs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_sdio.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_sdio.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_sfls.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_sfls.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_mem.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_mem.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_net.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_net.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_eth.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_eth.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_media.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_media.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_gpio.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_gpio.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_uart.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_uart.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_spi.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_spi.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_i2c.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_i2c.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_isp.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_isp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/shell_cmd_util.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/shell/shell_cmd_util.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/ledblink.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ledblink/ledblink.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/sdcard.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/sdcard/sdcard.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/emmc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/emmc/emmc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/iperf.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/lwiperf/iperf.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/ping.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/ping/ping.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtcp_process.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtcp_process.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtp_g711.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_g711.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtp_h264.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_h264.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtp_h265.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_h265.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtp_jpeg.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_jpeg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtp_jpeg_sw.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_jpeg_sw.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtp_queue.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtp_queue.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtspd.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtspd.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtspd_authorization.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtspd_authorization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtspd_define.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtspd_define.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/rtspd_process.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/rtspd/rtspd_process.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/sntpc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/sntpc/sntpc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/httpd_structs.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/httpd_structs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/cgissi.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/cgissi.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/cgissi_en675.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/cgissi_en675.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/fsaplist.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/fsaplist.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/fsfilelist.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/fsfilelist.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/httpd_authorization.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/http/httpd_authorization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/fmt_avienc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/fmt_avienc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/fmt_mp4enc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/fmt_mp4enc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/muxer_videnc.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/muxer_videnc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/stream_buffering.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/stream_buffering.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/videnc_heap.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/videnc_heap.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/videnc_info.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/videnc/videnc_info.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/wifi.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/wifi/wifi.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/wifi_task.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/wifi/wifi_task.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/npu.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/npu.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/exp_tables.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/detector/exp_tables.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/prior_box.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/detector/prior_box.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/npu_cmd.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/network/npu_cmd.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/npu_data_type.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/network/npu_data_type.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/quantized_network.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/network/quantized_network.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/quantized_network_oact.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/network/quantized_network_oact.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/quantized_prior_box.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/npu/network/quantized_prior_box.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/echo.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/tcp_echo/echo.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Header Files/net_control.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core0/task/net_control/net_control.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core0/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/Source Files/main1.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core1/main1.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core1/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/Source Files/main2.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core2/main2.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core2/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/Source Files/main3.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/core3/main3.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core3/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf//mentry.S</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/mentry.S</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf//exbl.lds</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/exbl.lds</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/boot.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/boot.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/exbl.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/exbl.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/msg.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/msg.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/user.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/user.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/test_nonos.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/test/test_nonos.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/test_dma.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/test/test_dma.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/test_eth.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/test/test_eth.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Source Files/test_sdio.c</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/test/test_sdio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Header Files/boot.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/boot.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Header Files/exbl.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/exbl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Header Files/msg.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/msg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Header Files/user.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/user.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Header Files/test_nonos.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/test/test_nonos.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Header Files/test_header.h</name>
+			<type>1</type>
+			<location>D:/DEV_2020/openedge/en675_f/en675_351t/IITP_NPU_MJS_20200807/Source/core/shared/test/test_header.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] core.elf/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

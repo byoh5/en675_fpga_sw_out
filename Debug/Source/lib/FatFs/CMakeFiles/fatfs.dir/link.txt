@@ -1,0 +1,2 @@
+D:\DEV_2020\en675\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\bin\riscv64-unknown-elf-ar.exe qc ..\..\..\lib\libfatfs.a  CMakeFiles/fatfs.dir/source/diskio.c.obj CMakeFiles/fatfs.dir/source/ff.c.obj CMakeFiles/fatfs.dir/source/ffsystem.c.obj CMakeFiles/fatfs.dir/source/ffunicode.c.obj
+D:\DEV_2020\en675\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\bin\riscv64-unknown-elf-ranlib.exe ..\..\..\lib\libfatfs.a

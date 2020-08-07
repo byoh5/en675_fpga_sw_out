@@ -1,0 +1,2 @@
+D:\DEV_2020\en675\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\bin\riscv64-unknown-elf-ar.exe qc ..\..\..\lib\libcore2.a  CMakeFiles/core2.dir/main2.c.obj
+D:\DEV_2020\en675\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\bin\riscv64-unknown-elf-ranlib.exe ..\..\..\lib\libcore2.a
