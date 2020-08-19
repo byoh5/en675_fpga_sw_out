@@ -18,6 +18,8 @@ unsigned long elapsed_cycles = 0;
 unsigned int  trap_id = -1;
 
 
+void NPUresult(void);
+
 typedef struct {
     #define MAX_CYCLE_REPORT 4096
     unsigned int  cnt;
@@ -429,7 +431,7 @@ void run_npu(void)
     npu_init(npu_inst);
 
 
-    uint8_t* pact = NPU_DATA_FLAG_BUF;
+    uint32_t* pact = NPU_DATA_FLAG_BUF;
 
     *pact = 0;
 
@@ -463,14 +465,16 @@ void run_npu(void)
         while(npu_pic_done == 0) {
         	vTaskDelay(1);
         }
+        hwflush_dcache_all();
+
         run_post_process(oact_base);
 
         npu_debug("[NPU DBG] Pic Done\r\n");
 
-        hwflush_dcache_all();
+//        hwflush_dcache_all();
 
         vTaskDelay(1);
-
+        hwflush_dcache_all();
         *pact = 0;					//process done : reset activate flag
 
 
@@ -478,8 +482,6 @@ void run_npu(void)
 
     wait_ready();
 }
-
-
 
 
 
@@ -530,6 +532,9 @@ char npu_color[21][3] = { {0x52 ,0x5a ,0xf0 }, 	// 1 BACKGROUND  red
 						  {255 ,0 ,148 },		// 20 train 	 yellow
 						  {149 ,43 ,21 },		// 21 tvmonitor  green
 						};
+
+
+
 
 void NPUresult(void)
 {
@@ -639,6 +644,7 @@ void run_npu_rtcam(void)
         init_cycle();
         push_cycle();
 
+        hwflush_dcache_range_rtos(NPU_DATA_OUTPUT_BUF,NPU_DATA_OUTPUT_SIZE);
         npu_run_pic(npu_inst);
 
         print_cycle();
@@ -648,9 +654,11 @@ void run_npu_rtcam(void)
         while(npu_pic_done == 0) {
         	vTaskDelay(1);
         }
-        hwflush_dcache_all();
-
+        //hwflush_dcache_all();
+        hwflush_dcache_range_rtos(NPU_DATA_OUTPUT_BUF,NPU_DATA_OUTPUT_SIZE);
+       // hwflush_dcache_range_rtos(NPU_DATA_FLAG_BUF,NPU_DATA_FLAG_SIZE);
         run_post_process(oact_base);
+        hwflush_dcache_range_rtos(NPU_DATA_FLAG_BUF,NPU_DATA_FLAG_SIZE);
 
         npu_debug("[NPU DBG] Pic Done\r\n");
 

@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include "dev.h"
 
-//#define NPU_DEBUG
+#define NPU_DEBUG
 #ifdef NPU_DEBUG
 #   define npu_debug(...)  do {_printf(__VA_ARGS__);} while(0)
 #else
@@ -135,13 +135,13 @@ typedef struct {
 
 
 
-#define NPU_DATA_ACT_SIZE  	0x1000000
-#define NPU_DATA_POST_SIZE   0x504000
-#define NPU_DATA_INPUT_SIZE   0x43000
-#define NPU_DATA_OUTPUT_SIZE  0x20000
-#define NPU_DATA_FLAG_SIZE    0x10000
+#define NPU_DATA_ACT_SIZE  	 0x1000000
+#define NPU_DATA_POST_SIZE    0x550000  //0x550000
+#define NPU_DATA_INPUT_SIZE    0x50000  //0x50000
+#define NPU_DATA_OUTPUT_SIZE   0x40000 //0x20000
+#define NPU_DATA_FLAG_SIZE     0x10000 //0x10000
 
-#define NPU_DATA_BASE  		0x88000000
+#define NPU_DATA_BASE  		0x95000000
 #define NPU_DATA_ACV_BUF 	NPU_DATA_BASE
 #define NPU_DATA_POST_BUF 	NPU_DATA_ACV_BUF + NPU_DATA_ACT_SIZE
 #define NPU_DATA_INPUT_BUF  NPU_DATA_POST_BUF + NPU_DATA_POST_SIZE

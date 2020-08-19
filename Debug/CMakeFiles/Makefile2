@@ -543,9 +543,9 @@ Source/core/core1/preinstall:
 
 # All Build rule for target.
 Source/core/core1/CMakeFiles/core1.dir/all: Source/dev/CMakeFiles/dev.dir/all
-Source/core/core1/CMakeFiles/core1.dir/all: Source/lib/FatFs/CMakeFiles/fatfs.dir/all
-Source/core/core1/CMakeFiles/core1.dir/all: Source/lib/lwIP/CMakeFiles/lwip.dir/all
 Source/core/core1/CMakeFiles/core1.dir/all: Source/lib/FreeRTOS/CMakeFiles/freertos.dir/all
+Source/core/core1/CMakeFiles/core1.dir/all: Source/lib/lwIP/CMakeFiles/lwip.dir/all
+Source/core/core1/CMakeFiles/core1.dir/all: Source/lib/FatFs/CMakeFiles/fatfs.dir/all
 	$(MAKE) -f Source\core\core1\CMakeFiles\core1.dir\build.make Source/core/core1/CMakeFiles/core1.dir/depend
 	$(MAKE) -f Source\core\core1\CMakeFiles\core1.dir\build.make Source/core/core1/CMakeFiles/core1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DEV_2020\openedge\en675_f\en675_351t\IITP_NPU_MJS_20200807\Debug\CMakeFiles --progress-num= "Built target core1"
@@ -711,12 +711,12 @@ Source/core/shared/preinstall:
 
 # All Build rule for target.
 Source/core/shared/CMakeFiles/core.elf.dir/all: Source/dev/CMakeFiles/dev.dir/all
-Source/core/shared/CMakeFiles/core.elf.dir/all: Source/lib/FatFs/CMakeFiles/fatfs.dir/all
+Source/core/shared/CMakeFiles/core.elf.dir/all: Source/lib/FreeRTOS/CMakeFiles/freertos.dir/all
 Source/core/shared/CMakeFiles/core.elf.dir/all: Source/lib/lwIP/CMakeFiles/lwip.dir/all
-Source/core/shared/CMakeFiles/core.elf.dir/all: Source/core/core2/CMakeFiles/core2.dir/all
+Source/core/shared/CMakeFiles/core.elf.dir/all: Source/lib/FatFs/CMakeFiles/fatfs.dir/all
 Source/core/shared/CMakeFiles/core.elf.dir/all: Source/core/core0/CMakeFiles/core0.dir/all
 Source/core/shared/CMakeFiles/core.elf.dir/all: Source/core/core1/CMakeFiles/core1.dir/all
-Source/core/shared/CMakeFiles/core.elf.dir/all: Source/lib/FreeRTOS/CMakeFiles/freertos.dir/all
+Source/core/shared/CMakeFiles/core.elf.dir/all: Source/core/core2/CMakeFiles/core2.dir/all
 Source/core/shared/CMakeFiles/core.elf.dir/all: Source/core/core3/CMakeFiles/core3.dir/all
 	$(MAKE) -f Source\core\shared\CMakeFiles\core.elf.dir\build.make Source/core/shared/CMakeFiles/core.elf.dir/depend
 	$(MAKE) -f Source\core\shared\CMakeFiles\core.elf.dir\build.make Source/core/shared/CMakeFiles/core.elf.dir/build

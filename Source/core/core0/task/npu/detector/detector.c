@@ -43,8 +43,8 @@ objs_t objects;
 #   define enlight_log(...)  do { printf(__VA_ARGS__);  } while(0)
 #else
 extern int _printf(const char *format, ...);
-//#   define enlight_log(...)  do { _printf(__VA_ARGS__); } while(0)
-#   define enlight_log(...)  do { } while(0)
+#   define enlight_log(...)  do { _printf(__VA_ARGS__); } while(0)
+//#   define enlight_log(...)  do { } while(0)
 #endif
 
 //#define NUM_BOX 8732
@@ -1006,8 +1006,8 @@ int detector(void* prior_buf, void* loc_buf, void* score_buf,
 void writeforNPUControl(detection_t* r1)
 {
 
-	 uint32_t* num = DETECTION_NUM;
-	 uint32_t* data = DETECTION_DATA;
+	 uint32_t* num = DETECTION_NUM;//DETECTION_NUM;
+	 uint32_t* data = DETECTION_DATA;//DETECTION_DATA;
 
 	enlight_log("%d object is detected\n", r1->n);
 
